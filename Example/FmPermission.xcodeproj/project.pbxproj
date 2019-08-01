@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		2D7A2FB497B90B36CA80A427 /* Pods_FmPermission_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FmPermission_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F293189B0C3E1F0F39B1E7D /* Pods-FmPermission_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FmPermission_Example.release.xcconfig"; path = "Target Support Files/Pods-FmPermission_Example/Pods-FmPermission_Example.release.xcconfig"; sourceTree = "<group>"; };
-		563A2729B3F14DD8E52A5195 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		563A2729B3F14DD8E52A5195 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* FmPermission_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FmPermission_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,10 +63,10 @@
 		7FCCFDE4A26FE17A4FD79F02 /* Pods_FmPermission_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FmPermission_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D0E08D587027FEB8C851E3C /* Pods-FmPermission_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FmPermission_Example.debug.xcconfig"; path = "Target Support Files/Pods-FmPermission_Example/Pods-FmPermission_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C5FC3C915B565563A0FB9C81 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C5FC3C915B565563A0FB9C81 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CA8E955B423E9AA539002C43 /* Pods-FmPermission_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FmPermission_Tests.release.xcconfig"; path = "Target Support Files/Pods-FmPermission_Tests/Pods-FmPermission_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D98D1063EEEC37EDF7BBFF50 /* Pods-FmPermission_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FmPermission_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FmPermission_Tests/Pods-FmPermission_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		EDDAFDD81595BFEE63154B32 /* FmPermission.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FmPermission.podspec; path = ../FmPermission.podspec; sourceTree = "<group>"; };
+		EDDAFDD81595BFEE63154B32 /* FmPermission.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FmPermission.podspec; path = ../FmPermission.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				D98D1063EEEC37EDF7BBFF50 /* Pods-FmPermission_Tests.debug.xcconfig */,
 				CA8E955B423E9AA539002C43 /* Pods-FmPermission_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = sunxiubo;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = XCXCTVPHCS;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -498,6 +500,7 @@
 			baseConfigurationReference = 9D0E08D587027FEB8C851E3C /* Pods-FmPermission_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XCXCTVPHCS;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FmPermission/FmPermission-Prefix.pch";
 				INFOPLIST_FILE = "FmPermission/FmPermission-Info.plist";
@@ -514,6 +517,7 @@
 			baseConfigurationReference = 2F293189B0C3E1F0F39B1E7D /* Pods-FmPermission_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XCXCTVPHCS;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FmPermission/FmPermission-Prefix.pch";
 				INFOPLIST_FILE = "FmPermission/FmPermission-Info.plist";

@@ -1,6 +1,0 @@
-framework module FmPermission {
-  umbrella header "FmPermission-umbrella.h"
-
-  export *
-  module * { export * }
-}
